@@ -74,8 +74,8 @@ async def helper_private(
 @LanguageStart
 async def help_com_group(client, message: Message, _):
     keyboard = private_help_panel(_)
-    await message.reply_photo(
-        photo=config.START_IMG_URL,
+    await message(
+
         caption=_["help_2"], reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
