@@ -233,9 +233,9 @@ stream_4 : "**❰ 𝙎𝙏𝘼𝙍𝙏𝙀𝘿 𝙎𝙏𝙍𝙀𝘼𝙈𝙄𝙉�
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "✘ 𝘾𝙇𝙊𝙎𝙀 ✘"
-CLOSEMENU_BUTTON  : "✘ 𝘾𝙇𝙊𝙎𝙀 ✘"
-BACK_BUTTON : "✘ 𝘽𝘼𝘾𝙆 ✘"
+CLOSE_BUTTON  : "❌ 𝘾𝙇𝙊𝙎𝙀 ❌"
+CLOSEMENU_BUTTON  : "❌ 𝘾𝙇𝙊𝙎𝙀 ❌"
+BACK_BUTTON : "🔙 𝘽𝘼𝘾𝙆 🔙"
 UNBAN_BUTTON : "✘ 𝙐𝙉𝘽𝘼𝙉 ✘"
 
 #Lyrics
