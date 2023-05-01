@@ -60,7 +60,7 @@ async def helper_private(
         _ = get_string(language)
         keyboard = help_pannel(_)
 
-
+        await update.reply_photo(
             photo=config.START_IMG_URL,
             caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard)
 
