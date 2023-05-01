@@ -61,7 +61,7 @@ async def helper_private(
         keyboard = help_pannel(_)
 
 
-            photo=config.START_IMG_URL,
+
             caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard)
 
 
