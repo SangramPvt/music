@@ -41,7 +41,7 @@ async def helper_private(
         language = await get_lang(chat_id)
         _ = get_string(language)
         keyboard = help_pannel(_, True)
-
+        if update.message.photo:
             await update.edit_message_text(
                 _["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
             )
