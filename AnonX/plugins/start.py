@@ -154,26 +154,31 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-😲**ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ**😲
+**𝙏𝙍𝘼𝘾𝙆 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉**
 
-📌 **ᴛɪᴛʟᴇ:** {title}
+☞ 𝗧𝗶𝘁𝗹𝗲: **{title}**
 
-⏳ **ᴅᴜʀᴀᴛɪᴏɴ:** {duration} ᴍɪɴᴜᴛᴇs
-👀 **ᴠɪᴇᴡs:** `{views}`
-⏰ **ᴩᴜʙʟɪsʜᴇᴅ ᴏɴ:** {published}
-🎥 **ᴄʜᴀɴɴᴇʟ:** {channel}
-📎 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
-🔗 **ʟɪɴᴋ:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
+☞ 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻: **{duration} Minutes**
+☞ 𝗩𝗶𝗲𝘄𝘀: `**{views}**`
+☞ 𝗣𝘂𝗯𝗹𝗶𝘀𝗵𝗲𝗱 𝗼𝗻: **{published}**
+☞ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: **{channel}**
+☞ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸: **[Visit Channel]({channellink})**
+☞ 𝗟𝗶𝗻𝗸: **[Watch on YouTube]({link})**
 
-💖 sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {config.MUSIC_BOT_NAME}"""
+🥀 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 [𝗥𝗘𝗗-𝗪𝗜𝗡𝗘](https://t.me/Kalakar_Sangram)"""
             key = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
                             text="✘ 𝙔𝙊𝙐𝙏𝙐𝘽𝙀 ✘", url=f"{link}"
                         ),
+                    ],
+                    [
                         InlineKeyboardButton(
                             text="✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘", url="https://t.me/Red_Wine_Op"
+                        ),
+                        InlineKeyboardButton(
+                            text="✘ 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ✘", url="https://t.me/WCFnetwork"
                         ),
                     ],
                 ]
