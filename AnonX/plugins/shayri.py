@@ -66,9 +66,9 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Support", url=f"https://t.me/Red_Wine_Op"),
+                        "✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘", url=f"https://t.me/Red_Wine_Op"),
                     InlineKeyboardButton(
-                        "Updates", url=f"https://t.me/Sangram_Updates")
+                        "✘ 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ✘", url=f"https://t.me/Sangram_Updates")
                     
                 ]
             ]
@@ -86,9 +86,9 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Support", url=f"https://t.me/Red_Wine_Op"),
+                        "✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘", url=f"https://t.me/Red_Wine_Op"),
                     InlineKeyboardButton(
-                        "Updates", url=f"https://t.me/Sangram_Updates")
+                        "✘ 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ✘", url=f"https://t.me/Sangram_Updates")
                     
                 ]
             ]
