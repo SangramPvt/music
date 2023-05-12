@@ -178,7 +178,7 @@ async def start_comm(client, message: Message, _):
                             text="✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘", url="https://t.me/Red_Wine_Op"
                         ),
                         InlineKeyboardButton(
-                            text="✘ 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ✘", url="https://t.me/WCFnetwork"
+                            text="✘ 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ✘", url="https://t.me/Sangram_Updates"
                         ),
                     ],
                 ]
