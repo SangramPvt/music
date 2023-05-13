@@ -154,7 +154,7 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-**𝙏𝙍𝘼𝘾𝙆 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉**
+**❰ 𝙏𝙍𝘼𝘾𝙆 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉 ❱**
 
 ☞ 𝗧𝗶𝘁𝗹𝗲: **{title}**
 
