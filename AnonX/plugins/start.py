@@ -205,10 +205,10 @@ async def start_comm(client, message: Message, _):
         except:
             OWNER = None
         out = private_panel(_, app.username, OWNER)
-        if config.START:
+        if config.START_IMG_URL:
             try:
                 await message.reply_photo(
-                    photo=config.START,
+                    photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
                         message.from_user.first_name,
                         config.MUSIC_BOT_NAME
@@ -245,7 +245,7 @@ async def testbot(client, message: Message, _):
     OWNER = OWNER_ID[0]
     out = start_pannel(_, app.username, OWNER)
     return await message.reply_photo(
-               photo=config.START,
+               photo=config.START_IMG_URL,
                caption=_["start_1"].format(
             message.chat.title, config.MUSIC_BOT_NAME
         ),
@@ -287,7 +287,7 @@ async def welcome(client, message: Message):
                 OWNER = OWNER_ID[0]
                 out = start_pannel(_, app.username, OWNER)
                 await message.reply_photo(
-                    photo=config.START,
+                    photo=config.START_IMG_URL,
                     caption=_["start_3"].format(
                         config.MUSIC_BOT_NAME,
                         userbot.username,
