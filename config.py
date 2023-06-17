@@ -75,6 +75,7 @@ userstats = {}
 clean = {}
 autoclean = []
 
+START = getenv("START", "https://graph.org/file/34147ab43ea65961ababb.jpg")
 
 START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/e066e1971b116c1dc85db.jpg")
 
