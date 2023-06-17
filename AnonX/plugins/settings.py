@@ -8,9 +8,9 @@ from pyrogram.types import (
     InputMediaVideo,
     Message,
 )
-
+from config import START
 from config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
-                    MUSIC_BOT_NAME, OWNER_ID, START)
+                    MUSIC_BOT_NAME, OWNER_ID)
 from strings import get_command
 from AnonX import app
 from AnonX.utils.database import (add_nonadmin_chat,
